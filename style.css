@@ -11,6 +11,105 @@
     margin-bottom: 1rem;
   }
   
+  .align-center{
+    text-align: center;
+}
+
+.login-box{
+    display:grid;
+    grid-template-rows: 3rem 3rem 3rem 3rem;
+    margin-top: 5rem;
+    margin-left: 25%;
+    margin-right:25%;
+}
+
+.btn{
+    margin-top: 0.2rem;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    text-align: center;
+}
+
+.newpost{
+    display:grid;
+    grid-template-columns: 33% 34% 33%;
+}
+
+#title{
+    grid-column: 1/2;
+    margin-left: 5%;
+    
+     
+}
+#link{
+    grid-column: 2/3;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+#postbtn{
+    grid-column: 3/4;
+    margin-left: 20%;
+    margin-right: 5%;     
+}
+
+.post-box{
+    display: grid;
+    margin-top: 3rem;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.profile-pic-name{
+     display: grid;
+     grid-template-columns: 10% 80%;
+}
+
+.profile-pic{
+    grid-column: 1/2;
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+}
+
+.name{
+    grid-column: 2/3;
+    margin-top: 1rem;
+}
+
+.caption{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.post-pic{
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.likenum{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.friend-box{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2rem;
+}
+
+.btnpos{
+    margin-top: 1rem;
+}
+
+.friend-name{
+    grid-column: 2/3;
+    margin-top: 1.5rem;
+}
+
 .main-navbar {
     display: grid;
     grid-template-columns: 33% 34% 33%;
